@@ -138,3 +138,27 @@ section#img04 {
     background-size: 60%;
     background-repeat: no-repeat;
 }
+
+section#fontes {
+    padding-left: 0px;
+}
+
+
+section#fontes h1 {
+    text-align: center;
+    font-family: Helvetica2;
+    color: white;
+    background-color: black;
+}
+
+section#fontes a{
+    color: black;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-family: Helvetica3;
+
+}
+
+section#fontes a:hover {
+    text-decoration: underline;
+}
