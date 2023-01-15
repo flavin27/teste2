@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Helvetica1;
+    src: url('Fonts/HelveticaLTStd-BoldObl.otf');
+}
+
+@font-face {
+    font-family: Helvetica2;
+    src: url("Fonts/HelveticaLTStd-Bold.otf");
+}
+
+@font-face {
+    font-family: Helvetica3;
+    src: url("Fonts/HelveticaLTStd-Light.otf");
+}
+
+@font-face {
+    font-family: Helvetica4;
+    src: url("Fonts/HelveticaWorld-Italic.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 50px;
+    text-transform: small-caps;
+    font-family: Helvetica1;
+    font-size: 10vh;
+}
+
+header > p {
+    padding-bottom: 20px;
+}
+header a {
+    font-family: Helvetica2;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    text-align: right;
+    padding: 10px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    font-family: Helvetica4;
+}
+
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Helvetica3;
+    font-size: 3,5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.753);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 200px;
+    position: relative;
+}
+
+section.imagem > h1 {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.288);
+    color: black;
+    font-family: Helvetica2;
+    max-width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+
+section#img01 {
+    background-image: url(imagens/capa1.png);
+    background-position: center bottom;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+section#img02 {
+    background-image: url(imagens/caap2.png);
+    background-position: center bottom;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+section#img03 {
+    background-image: url(imagens/capa3.png);
+    background-position: center bottom;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+section#img04 {
+    background-image: url(imagens/capa4.png);
+    background-position: center bottom;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
