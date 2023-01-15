@@ -97,6 +97,10 @@ section.imagem {
     background-attachment: fixed;
     min-height: 200px;
     position: relative;
+    background-position: center bottom;
+    background-size: 60%;
+    background-repeat: no-repeat;
+
 }
 
 section.imagem > h1 {
@@ -116,52 +120,28 @@ section.imagem > h1 {
 
 section#img01 {
     background-image: url(imagens/capa1.png);
-    background-position: center bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 
 section#img02 {
     background-image: url(imagens/caap2.png);
-    background-position: center bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 section#img03 {
     background-image: url(imagens/capa3.png);
-    background-position: center bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 section#img04 {
     background-image: url(imagens/capa4.png);
-    background-position: center bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 section#img05 {
     background-image: url(imagens/capa5.png);
-    background-position: center bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 section#img06 {
     background-image: url(imagens/capa6.jpeg);
-    background-position: center bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 section#img07 {
     background-image: url(imagens/capa7.jpeg);
-    background-position: center bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 section#img08 {
     background-image: url(imagens/capa8.png);
-    background-position: center bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
 }
 
 
